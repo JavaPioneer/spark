@@ -17,112 +17,112 @@ replacements:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.operator-namespace
+    #fieldref:
+    #  fieldpath: data.operator-namespace
   - name: ingress-url
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.ingress-url
+    #fieldref:
+    #  fieldpath: data.ingress-url
   - name: controller-threads
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.controller-threads
+    #fieldref:
+    #  fieldpath: data.controller-threads
   - name: resync-interval
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.resync-interval
+    #fieldref:
+    #  fieldpath: data.resync-interval
   - name: enable-batch-scheduler
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.enable-batch-scheduler
+    #fieldref:
+    #  fieldpath: data.enable-batch-scheduler
   - name: enable-metrics
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.enable-metrics
+    #fieldref:
+    #  fieldpath: data.enable-metrics
   - name: metrics-labels
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.metrics-labels
+    #fieldref:
+    #  fieldpath: data.metrics-labels
   - name: metrics-port
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.metrics-port
+    #fieldref:
+    #  fieldpath: data.metrics-port
   - name: metrics-endpoint
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.metrics-endpoint
+    #fieldref:
+    #  fieldpath: data.metrics-endpoint
   - name: metrics-prefix
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.metrics-prefix
+    #fieldref:
+    #  fieldpath: data.metrics-prefix
   - name: enable-webhook
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.enable-webhook
+    #fieldref:
+    #  fieldpath: data.enable-webhook
   - name: webhook-svc-namespace
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.webhook-svc-namespace
+    #fieldref:
+    #  fieldpath: data.webhook-svc-namespace
   - name: webhook-port
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.webhook-port
+    #fieldref:
+    #  fieldpath: data.webhook-port
   - name: webhook-svc-name
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.webhook-svc-name
+    #fieldref:
+    #  fieldpath: data.webhook-svc-name
   - name: webhook-config-name
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.webhook-config-name
+    #fieldref:
+    #  fieldpath: data.webhook-config-name
   - name: leader-election
     objref:
       kind: ConfigMap
       name: sparkoperator-config
       apiVersion: v1
-    fieldref:
-      fieldpath: data.leader-election
+    #fieldref:
+    #  fieldpath: data.leader-election
 configurations:
 - sparkoperator-config.yaml
