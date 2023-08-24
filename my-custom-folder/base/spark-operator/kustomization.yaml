@@ -11,7 +11,7 @@ configMapGenerator:
 - name: sparkoperator-config
   env: sparkoperator-config.properties
 
-vars:
+replacements:
   - name: operator-namespace
     objref:
       kind: ConfigMap

@@ -6,7 +6,7 @@ commonLabels:
   app.kubernetes.io/managed-by: kustomize
   app.kubernetes.io/part-of: spark-operator
 
-bases:
+resources:
   - base/crds
   - base/spark
   - base/spark-operator
